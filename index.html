@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Econotiendas.Pe</title>
+    <link
+      href="https://fonts.googleapis.com/css2? family = Amaranth: ital @ 1 & display = swap"
+      rel="hoja de estilo"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><a href="#">Codingo</a></div>
+        <input type="radio" name="slide" id="menu-btn" />
+        <input type="radio" name="slide" id="cancel-btn" />
+        <ul class="nav-links">
+          <label for="cancel-btn" class="btn cancel-btn"
+          ></label>
+          <li><a href="#">Bienvenido</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li>
+            <a href="#" class="desktop-item">Submenu</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Submenu</label>
+            <ul class="drop-menu">
+              <li><a href="#">menu1</a></li>
+              <li><a href="#">menu2</a></li>
+              <li><a href="#">menu3</a></li>
+              <li><a href="#">menu4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-item">Megamenu</a>
+            <input type="checkbox" id="showMega" />
+            <label for="showMega" class="mobile-item">Megamenu</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="/img/LOGO - copia.jpg" alt="Logo de empresa" />
+                </div>
+                <div class="row">
+                  <header>Desing Servios</header>
+                  <ul class="mega-link">
+                    <li><a href="#">Menu1</a></li>
+                    <li><a href="#">Menu2</a></li>
+                    <li><a href="#">Menu3</a></li>
+                    <li><a href="#">Menu4</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Desing Servios</header>
+                  <ul class="mega-link">
+                    <li><a href="#">Menu1</a></li>
+                    <li><a href="#">Menu2</a></li>
+                    <li><a href="#">Menu3</a></li>
+                    <li><a href="#">Menu4</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Desing Servios</header>
+                  <ul class="mega-link">
+                    <li><a href="#">Menu1</a></li>
+                    <li><a href="#">Menu2</a></li>
+                    <li><a href="#">Menu3</a></li>
+                    <li><a href="#">Menu4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Carro</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-align-right"></i
+        ></label>
+      </div>
+    </nav>
+    <div class="box-banner">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img height="750" src="img/verduras.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img height="750" src="img/abarrotes.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img height="750" src="img/laptop.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+ <!--- Medidas de seguridad Covid y medios de pago -->
+ <section class="grupo-cintillo">
+ <div class="cintillo">
+<a href="#">
+  <img src="/img/coca-cola.jpg" alt="">
+  
+</a>
+ </div>
+</section>
+
+
+<div id="section-de-tarjetas">
+<div class="categoria-gondola">
+  <a href="#">
+    <span class="categoria">Ropa de Invierno</span>
+    <img src="https://img.icons8.com/ios/48/000000/swimming-suit.png"/>
+  </a>
+  <div class="linea"></div>
+</div>
+
+<section class="Gondola1">
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/paisaje.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">20% de descuento</span>
+    </div>
+  </a>
+  <div class="info-container">
+    <h2>nombre del producto</h2>
+    <strong>$60.0</strong>
+    <span class="rating">*****</span>
+    <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+  </div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-anna-khomutova-5704187.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+    </div>
+  </a>
+  <div class="info-container">  
+    <h2>nombre del producto</h2>
+    <strong class="precio">$550</strong>
+    <span class="rating">*****</span>
+    <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-daria-shevtsova-1030946.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">$550</span>
+    </div>
+  </a>
+  <div class="info-container">
+  <h2>nombre del producto</h2>
+  <strong class="precio">$550</strong>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">  
+    <div class="img-container">
+      <img src="img/pexels-sam-lion-5709661.jpg"  alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">$550</span>
+    </div>
+  </a>
+  <div class="info-container">
+  <h2>nombre del producto</h2>
+  <strong class="precio">$550</strong>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-sam-lion-5709661.jpg"  alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">$550</span>
+    </div>
+    </a>
+    <div class="info-container">
+    <h2>nombre del producto</h2>
+  <span class="precio">$550</span>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+</section>
+</div>
+
+<div class="categoria-gondola">
+  <a href="#">
+    <span class="categoria">Ropa de Invierno</span>
+    <img src="https://img.icons8.com/ios/48/000000/swimming-suit.png"/>
+  </a>
+  <div class="linea"></div>
+</div>
+
+<section class="Gondola2">
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/paisaje.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">20% de descuento</span>
+    </div>
+  </a>
+  <div class="info-container">
+    <h2>nombre del producto</h2>
+    <strong>$60.0</strong>
+    <span class="rating">*****</span>
+    <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+  </div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-anna-khomutova-5704187.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+    </div>
+  </a>
+  <div class="info-container">  
+    <h2>nombre del producto</h2>
+    <strong class="precio">$550</strong>
+    <span class="rating">*****</span>
+    <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-daria-shevtsova-1030946.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">$550</span>
+    </div>
+  </a>
+  <div class="info-container">
+  <h2>nombre del producto</h2>
+  <strong class="precio">$550</strong>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">  
+    <div class="img-container">
+      <img src="img/pexels-sam-lion-5709661.jpg"  alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">$550</span>
+    </div>
+  </a>
+  <div class="info-container">
+  <h2>nombre del producto</h2>
+  <strong class="precio">$550</strong>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-sam-lion-5709661.jpg"  alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+    <span class="promocion">$550</span>
+    </div>
+    </a>
+    <div class="info-container">
+    <h2>nombre del producto</h2>
+  <span class="precio">$550</span>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+</section>
+
+
+<div class="categoria-gondola">
+  <a href="#">
+    <span class="categoria">Ropa de Invierno</span>
+    <img src="https://img.icons8.com/ios/48/000000/swimming-suit.png"/>
+  </a>
+  <div class="linea"></div>
+</div>
+
+
+<section class="Gondola3">
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/paisaje.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">20% de descuento</span>
+    </div>
+  </a>
+  <div class="info-container">
+    <h2>nombre del producto</h2>
+    <strong>$60.0</strong>
+    <span class="rating">*****</span>
+    <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+  </div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-anna-khomutova-5704187.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+    </div>
+  </a>
+  <div class="info-container">  
+    <h2>nombre del producto</h2>
+    <strong class="precio">$550</strong>
+    <span class="rating">*****</span>
+    <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-daria-shevtsova-1030946.jpg" alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">$550</span>
+    </div>
+  </a>
+  <div class="info-container">
+  <h2>nombre del producto</h2>
+  <strong class="precio">$550</strong>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">  
+    <div class="img-container">
+      <img src="img/pexels-sam-lion-5709661.jpg"  alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">$550</span>
+    </div>
+  </a>
+  <div class="info-container">
+  <h2>nombre del producto</h2>
+  <strong class="precio">$550</strong>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+  <div class="card centro-1">
+    <a href="">
+    <div class="img-container">
+      <img src="img/pexels-sam-lion-5709661.jpg"  alt="producto-1">
+      <span class="favorito">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+      </span>
+      <span class="promocion">$550</span>
+    </div>
+    </a>
+    <div class="info-container">
+    <h2>nombre del producto</h2>
+  <span class="precio">$550</span>
+  <span class="rating">*****</span>
+  <a href="#" class="add-cart">Añadir al carrito</a>
+  </div>
+</div>
+</section>
+   
+
+
+</div>
+
+
+<section class="info-de-iconos">   
+<div class="Beneficios">
+  <div class="contenedor-de-beneficios">
+      <p  class="info-de-beneficios"> <span class="material-icons">
+        arrow_right
+        </span>Por que Comprar en Econotiendas</p>
+ </div>
+</div>
+<div class="modulo-de-Beneficios">
+  <div class="modolu-Beneficio1">
+<div class="Recojo">
+  <a href="#">
+    <span class="categoria">Recojo en Tienda</span>
+    <img src="https://img.icons8.com/ios/50/000000/shopping-mall.png"/>
+  </a>
+</div>
+<div class="Precios">
+  <a href="#">
+    <span class="categoria">Mejores Precios y Ofertas</span>
+    <img src="https://img.icons8.com/ios/50/000000/discount--v1.png"/>
+  </a>
+</div>
+<div class="Delivery">
+  <a href="#">
+    <span class="categoria">Servicio de Delivery</span>
+    <img src="https://img.icons8.com/ios/50/000000/delivery--v1.png"/>
+  </a>
+</div>
+</div>
+<div class="modolu-Beneficio2"> 
+<div class="Devolucion">
+  <a href="#">
+    <span class="categoria">Cambio y Devolucion</span>
+    <img src="https://img.icons8.com/ios/52/000000/security-checked.png"/>
+  </a>
+</div>
+<div class="Garantia">
+  <a href="#">
+    <span class="categoria">Garantia de Compra</span>
+    <img src="https://img.icons8.com/ios/50/000000/guarantee--v1.png"/>
+  </a>
+</div>
+<div class="Seguridad">
+  <a href="#">
+    <span class="categoria">Compra Facil y 100% Segura</span>
+    <img src="https://img.icons8.com/ios/52/000000/privacy.png"/>
+  </a>
+</div>
+</div>
+
+</div>
+</section>
+
+
+<footer>
+       
+  <div class="container-footer-all">
+   
+       <div class="container-body">
+
+           <div class="colum1">
+               <h1>Mas informacion de la compañia</h1>
+
+               <p>Esta compañia se dedica a la venta de software integrado con un 
+               conjunto de cosas que no se lo que estoy escribiendo, este 
+               texto es solo para llenara informacion en el cuadro de informacion 
+               de la compañia.</p>
+
+           </div>
+
+           <div class="colum2">
+
+               <h1>Redes Sociales</h1>
+
+               <div class="row1">
+                <img src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
+                   <label>Siguenos en Facebook</label>
+               </div>
+               <div class="row1">
+                <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+                   <label>Siguenos en Twitter</label>
+               </div>
+               <div class="row1">
+                <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/>
+                   <label>Siguenos en Instagram</label>
+               </div>
+               <div class="row1">
+                <img src="https://img.icons8.com/fluent/48/000000/facebook-messenger--v1.png"/>
+                   <label>Siguenos en Google Plus</label>
+               </div>
+               <div class="row1">
+                <img src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
+                   <label>Siguenos en Pinteres</label>
+               </div>
+
+
+           </div>
+
+           <div class="colum3">
+
+               <h1>Informacion Contactos</h1>
+
+               <div class="row2">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M28.66667,14.33333v14.33333h114.66667v-14.33333zM25.08333,43l-10.75,21.5v14.33333h7.16667v57.33333c0,7.91917 6.41417,14.33333 14.33333,14.33333h100.33333c7.91917,0 14.33333,-6.41417 14.33333,-14.33333v-57.33333h7.16667v-14.33333l-10.75,-21.5zM35.83333,78.83333h100.33333v57.33333h-14.33333v-43h-28.66667v43h-57.33333zM50.16667,93.16667v28.66667h28.66667v-28.66667z"></path></g><path d="" fill="none"></path></g></g></svg>
+                   <label>La Romana, 
+                   Republica Dominicana
+                   Manuel del Cabral
+                   Casa # 27</label>
+               </div>
+
+               <div class="row2">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="48" height="48"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M37.625,21.5c-6.91583,0 -12.54167,5.62583 -12.54167,12.54167v96.75c0,6.91583 5.62583,12.54167 12.54167,12.54167h5.375v5.375c0,8.84188 7.28312,16.125 16.125,16.125h14.33333c8.84188,0 16.125,-7.28312 16.125,-16.125v-5.375h44.79167c6.91583,0 12.54167,-5.62583 12.54167,-12.54167v-96.75c0,-6.91583 -5.62583,-12.54167 -12.54167,-12.54167h-62.70833v121.83333h7.16667v5.375c0,3.03329 -2.34171,5.375 -5.375,5.375h-14.33333c-3.03329,0 -5.375,-2.34171 -5.375,-5.375v-5.375h7.16667v-121.83333zM91.375,43h35.83333c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375h-35.83333c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM91.375,75.25c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM109.29167,75.25c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM127.20833,75.25c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM91.375,93.16667c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM109.29167,93.16667c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM127.20833,93.16667c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM91.375,111.08333c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM109.29167,111.08333c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375zM127.20833,111.08333c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375z"></path></g><path d="" fill="none"></path></g></g></svg>
+                   <label>+1-829-395-2064</label>
+               </div>
+
+               <div class="row2">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0 0 172 172"
+style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M21.5,21.5c-7.83362,0 -14.33333,6.49972 -14.33333,14.33333v86c-0.03655,2.58456 1.32136,4.98858 3.55376,6.29153c2.2324,1.30295 4.99342,1.30295 7.22582,0c2.2324,-1.30295 3.59031,-3.70697 3.55376,-6.29153v-86h107.5c2.58456,0.03655 4.98858,-1.32136 6.29153,-3.55376c1.30295,-2.2324 1.30295,-4.99342 0,-7.22582c-1.30295,-2.2324 -3.70697,-3.59031 -6.29153,-3.55376zM50.16667,50.16667c-6.58617,0 -12.08961,4.4982 -13.75944,10.55404l63.92611,39.61263l63.81413,-39.99056c-1.79883,-5.86233 -7.20463,-10.17611 -13.64746,-10.17611zM164.83333,74.22819l-60.7207,38.07292c-2.31483,1.45483 -5.25059,1.4545 -7.57259,0.014l-60.7067,-37.611v61.46257c0,7.91917 6.41417,14.33333 14.33333,14.33333h100.33333c7.91917,0 14.33333,-6.41417 14.33333,-14.33333z"></path></g><path d="" fill="none"></path></g></g></svg>
+                    <label>Cristiancedano1030@gmail.com</label>
+               </div>
+
+           </div>
+
+       </div>
+   
+   </div>
+   
+   <div class="container-footer">
+          <div class="footer">
+               <div class="copyright">
+                   © 2017 Todos los Derechos Reservados | <a href="">Magtimus</a>
+               </div>
+
+               <div class="information">
+                   <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+               </div>
+           </div>
+
+       </div>
+   
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/53bb00b9d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/proyecto1/js/app.js" defer></script>
+    <script src="/proyecto1/js/busqueda.js" charset="utf-8"></script>
+  </body>
+</html>
